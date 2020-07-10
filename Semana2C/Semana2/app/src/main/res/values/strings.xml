@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AplicacionCoursera</string>
+    <string name="oncreate">onCreate</string>
+    <string name="onstart">onStart</string>
+    <string name="onresume">onResume</string>
+    <string name="onpause">onPause</string>
+    <string name="onstop">onStop</string>
+    <string name="ondestroy">onDestroy</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="txtNombre">Nombre Completo</string>
+    <string name="strTelefono">Phone Number</string>
+    <string name="strEmail">Email</string>
+    <string name="strFecha">Fecha</string>
+    <string name="strDescriptionContact">Description Contact</string>
+    <string name="keyName">keyName</string>
+    <string name="keyDate">keyDate</string>
+    <string name="keyPhone">keyPhone</string>
+    <string name="keyEmail">keyEmail</string>
+    <string name="keyDescription">keyDescription</string>
+    <string name="txtNombreD">Nombre</string>
+    <string name="mandatory">This field is mandatory</string>
+    <string name="title">Datos</string>
+    <string name="faltan_datos">Faltan Datos</string>
+    <string name="editar_datos">Editar Datos</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="5dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginMain"
+        android:hint="@string/txtNombre"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_baseline_account_circle_24"
+        app:startIconTint="@color/icons">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/AppTheme.TextInputLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/BtnDate"
+        style="@style/AppTheme.Button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/edtName"
+        android:layout_marginTop="@dimen/marginMain"
+        android:text="@string/strFecha"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtName" />
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginMain"
+        android:editable="false"
+        android:hint="Example"
+        android:textSize="@dimen/textsizeoculto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtName" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtPhone"
+        style="@style/AppTheme.TextInputLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginMain"
+        android:hint="@string/strTelefono"
+        app:layout_constraintTop_toBottomOf="@id/BtnDate"
+        app:startIconDrawable="@drawable/ic_baseline_phone_24"
+        app:startIconTint="@color/icons">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/AppTheme.TextInputLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtEmail"
+        style="@style/AppTheme.TextInputLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginMain"
+        android:hint="@string/strEmail"
+        app:layout_constraintTop_toBottomOf="@id/edtPhone"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:startIconTint="@color/icons">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/AppTheme.TextInputLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginMain"
+        android:hint="@string/strDescriptionContact"
+        app:layout_constraintTop_toBottomOf="@id/edtEmail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/AppTheme.TextInputLayoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnPage"
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="message"
+        android:layout_marginBottom="@dimen/marginMain"
+        android:hint="@string/btnGuardar"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
