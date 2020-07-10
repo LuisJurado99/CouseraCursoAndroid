@@ -10,7 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6318694d-2f1c-48fd-890e-117e62129980" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1eMfNttIO6kpqd8sXuqS44YSpZJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,6 +75,7 @@
     <property name="method" value="Automatic" />
     <property name="resolutions" value="MDPI&#10;XXXHDPI&#10;HDPI&#10;XHDPI&#10;XXHDPI" />
     <property name="resourcesRoot" value="file://D:\Users\Luis Jurado\Documents\5 Semestre\cursoappandroid\CardViewCoursera\app\src\main\res" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="sourceResolution" value="XHDPI" />
   </component>
   <component name="RecentsManager">
@@ -143,6 +156,11 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594234746431">
       <screen x="0" y="0" width="1366" height="728" />
@@ -162,9 +180,10 @@
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594185120528" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594171207626" />
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1594235586798">
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1594351832891">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728/-1080.-1150.1080.1880@0.0.1366.728" timestamp="1594351832891" />
     <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594235586798" />
     <state x="538" y="129" key="AndroidProcessChooserDialog" timestamp="1594158019869">
       <screen x="0" y="0" width="1366" height="728" />
@@ -195,6 +214,10 @@
     </state>
     <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594186644463" />
     <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594240824404" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1594351720205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/-1080.-1150.1080.1880@0.0.1366.728" timestamp="1594351720205" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1594304612405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
