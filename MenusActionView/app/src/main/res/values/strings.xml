@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MenusActionView</string>
+    <string name="menu_about">About</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="menu_c_Edit">Edit</string>
+    <string name="menu_c_Delete">Delete</string>
+    <string name="nombrePersona">Luis Jurado</string>
+    <string name="menu_p_View">View Image</string>
+    <string name="menu_p_detail">View Image Detail</string>
+</resources>
