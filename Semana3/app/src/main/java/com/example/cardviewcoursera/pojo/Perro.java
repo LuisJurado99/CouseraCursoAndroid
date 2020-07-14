@@ -1,4 +1,4 @@
-package com.example.cardviewcoursera;
+package com.example.cardviewcoursera.pojo;
 
 public class Perro {
 

@@ -7,13 +7,6 @@
     style="@style/AppTheme"
     tools:context=".MainActivity">
 
-    <include
-        android:id="@+id/action_bar"
-        layout="@layout/actionbarotherpage"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvLikesMostrarBase"
         android:layout_width="match_parent"

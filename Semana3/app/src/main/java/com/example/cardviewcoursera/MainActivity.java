@@ -1,15 +1,20 @@
 package com.example.cardviewcoursera;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
 
+import com.example.cardviewcoursera.adapter.PageAdapter;
+import com.example.cardviewcoursera.fragment.PerfilFragment;
+import com.example.cardviewcoursera.fragment.RecyclerViewFragment;
+import com.example.cardviewcoursera.pojo.Perro;
+import com.google.android.material.tabs.TabLayout;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,15 +24,25 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> nombrePerro = new ArrayList<String>();
     ArrayList<Integer> rangoPerro = new ArrayList<Integer>();
     ArrayList<Integer> fotoPerro = new ArrayList<Integer>();
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar miAToolbar = (Toolbar) findViewById(R.id.acBar);
-        setSupportActionBar(miAToolbar);
-        ArrayList<Perro> perrosLike = new ArrayList<Perro>();
+        toolbar = findViewById(R.id.toolbar);
+        tabLayout = findViewById(R.id.tabLayout);
+        viewPager = findViewById(R.id.viewPager);
+        setUpViewPager();
+        if (toolbar !=null){
+            setSupportActionBar(toolbar);
+        }
+
+        /*ArrayList<Perro> perrosLike = new ArrayList<Perro>();
         listaContactos = (RecyclerView) findViewById(R.id.rvMainBase);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         listaContactos.setLayoutManager(llm);
@@ -39,24 +54,21 @@ public class MainActivity extends AppCompatActivity {
         PerroAdaptador perroAdaptador = new PerroAdaptador(perros);
         listaContactos.setAdapter(perroAdaptador);
         perrosLike = perroAdaptador.perroLike;
-        ImageButton imageButton = findViewById(R.id.imgbIntent);
-        final ArrayList<Perro> finalPerrosLike = perrosLike;
-        imageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                cargarDatos(finalPerrosLike);
-                bundle.putStringArrayList(getResources().getString(R.string.keyStringArrayMainMostrarNombre), nombrePerro);
-                bundle.putIntegerArrayList(getResources().getString(R.string.keyStringArrayMainMostrarRango), rangoPerro);
-                bundle.putIntegerArrayList(getResources().getString(R.string.keyStringArrayMainMostrarFoto), fotoPerro);
-                Intent intent = new Intent(getApplicationContext(), MostrarLikes.class);
-                intent.putExtras(bundle);
-                startActivity(intent);
-            }
-        });
+        */
 
     }
+    private ArrayList<Fragment> agregarFragments(){
+        ArrayList<Fragment> fragments = new ArrayList<>();
+        fragments.add(new RecyclerViewFragment());
+        fragments.add(new PerfilFragment());
+        return fragments;
+    }
+    private void setUpViewPager(){
+        viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(),agregarFragments()));
+        tabLayout.setupWithViewPager(viewPager);
 
+
+    }
     public void cargarDatos(ArrayList<Perro> perrosLike) {
         for (Perro perro : perrosLike) {
             nombrePerro.add(perro.getNombre());

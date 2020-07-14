@@ -10,6 +10,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.cardviewcoursera.adapter.PerroAdaptador;
+import com.example.cardviewcoursera.pojo.Perro;
+
 import java.util.ArrayList;
 
 public class MostrarLikes extends AppCompatActivity {
@@ -22,7 +25,7 @@ public class MostrarLikes extends AppCompatActivity {
         int i = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.likes_mostrar);
-
+/*
         Toolbar miAToolbar = (Toolbar) findViewById(R.id.acBar);
         setSupportActionBar(miAToolbar);
 
@@ -55,6 +58,6 @@ public class MostrarLikes extends AppCompatActivity {
             listaPerros.setAdapter(perroAdaptador);
 
 
-        }
+        }*/
     }
 }

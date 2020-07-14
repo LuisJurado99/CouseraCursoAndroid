@@ -1,17 +1,18 @@
-package com.example.cardviewcoursera;
+package com.example.cardviewcoursera.adapter;
 
-import android.content.Intent;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.cardviewcoursera.pojo.Perro;
+import com.example.cardviewcoursera.R;
+
 import java.util.ArrayList;
 
 public class PerroAdaptador extends RecyclerView.Adapter<PerroAdaptador.PerroViewHolder> {
