@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
     private void setUpViewPager(){
         viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(),agregarFragments()));
         tabLayout.setupWithViewPager(viewPager);
-
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_action_name);
+        tabLayout.getTabAt(1).setIcon(R.drawable.catfootprint_4993);
 
     }
 
