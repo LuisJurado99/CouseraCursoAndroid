@@ -19,11 +19,9 @@ public class PerroAdaptador extends RecyclerView.Adapter<PerroAdaptador.PerroVie
     ArrayList<Perro> perro;
     ArrayList<Perro> perroLike = new ArrayList<Perro>();
 
-
-    public PerroAdaptador(ArrayList<Perro> perro) {
-        this.perro = perro;
+    public PerroAdaptador(ArrayList<Perro> perros){
+        this.perro = perros;
     }
-
     //Inflar leyout y lo pasa al viewholder para que obtenga cada elemento
     @NonNull
     @Override

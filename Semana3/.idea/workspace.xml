@@ -10,9 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6318694d-2f1c-48fd-890e-117e62129980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/adapter/PageAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -23,23 +20,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/MostrarLikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/MostrarLikes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/PerfilFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/fragment/PerfilFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/pojo/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/PerroAdaptador.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/adapter/PerroAdaptador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/RecyclerViewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/fragment/RecyclerViewFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/actionbar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/actionbarotherpage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_perfil.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/adapter/PerroAdaptador.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/adapter/PerroAdaptador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/fragment/RecyclerViewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/cardviewcoursera/fragment/RecyclerViewFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recycler_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recycler_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/likes_mostrar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/likes_mostrar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,30 +198,30 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594185260493" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594178336027" />
-    <state width="1323" height="253" key="GridCell.Tab.0.bottom" timestamp="1594762578124">
+    <state width="1323" height="514" key="GridCell.Tab.0.bottom" timestamp="1594765297265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594186644464" />
     <state width="1323" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594240824404" />
-    <state width="1323" height="253" key="GridCell.Tab.0.bottom/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594762578124" />
-    <state width="1323" height="253" key="GridCell.Tab.0.center" timestamp="1594762578122">
+    <state width="1323" height="514" key="GridCell.Tab.0.bottom/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594765297265" />
+    <state width="1323" height="514" key="GridCell.Tab.0.center" timestamp="1594765297264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="280" key="GridCell.Tab.0.center/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594186644463" />
     <state width="1323" height="280" key="GridCell.Tab.0.center/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594240824403" />
-    <state width="1323" height="253" key="GridCell.Tab.0.center/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594762578122" />
-    <state width="1323" height="253" key="GridCell.Tab.0.left" timestamp="1594762578121">
+    <state width="1323" height="514" key="GridCell.Tab.0.center/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594765297264" />
+    <state width="1323" height="514" key="GridCell.Tab.0.left" timestamp="1594765297263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="280" key="GridCell.Tab.0.left/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594186644463" />
     <state width="1323" height="280" key="GridCell.Tab.0.left/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594240824403" />
-    <state width="1323" height="253" key="GridCell.Tab.0.left/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594762578121" />
-    <state width="1323" height="253" key="GridCell.Tab.0.right" timestamp="1594762578123">
+    <state width="1323" height="514" key="GridCell.Tab.0.left/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594765297263" />
+    <state width="1323" height="514" key="GridCell.Tab.0.right" timestamp="1594765297264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728/-1080.-1138.1080.1880@0.0.1366.728" timestamp="1594186644463" />
     <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728/-1080.-922.1080.1880@0.0.1366.728" timestamp="1594240824404" />
-    <state width="1323" height="253" key="GridCell.Tab.0.right/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594762578123" />
+    <state width="1323" height="514" key="GridCell.Tab.0.right/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1594765297264" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1594351720205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
