@@ -24,7 +24,8 @@ public class RecyclerViewFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_recycler_view,container,false);
         rvPerros = v.findViewById(R.id.rvBaseFragment);
         LinearLayoutManager llm =new  LinearLayoutManager(getActivity());
