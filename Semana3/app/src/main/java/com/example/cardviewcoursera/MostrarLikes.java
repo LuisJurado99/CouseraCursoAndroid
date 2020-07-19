@@ -25,17 +25,8 @@ public class MostrarLikes extends AppCompatActivity {
         int i = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.likes_mostrar);
-/*
-        Toolbar miAToolbar = (Toolbar) findViewById(R.id.acBar);
-        setSupportActionBar(miAToolbar);
 
-        ImageView imageView = findViewById(R.id.imgButtonBack);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
+
         Bundle bundle = this.getIntent().getExtras();
         if (bundle.isEmpty()) {
             Toast.makeText(this, "No hay datos", Toast.LENGTH_LONG);
@@ -58,6 +49,6 @@ public class MostrarLikes extends AppCompatActivity {
             listaPerros.setAdapter(perroAdaptador);
 
 
-        }*/
+        }
     }
 }
