@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuOpContacto" android:title="@string/mOpContacto"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menuOpAcerca" android:title="@string/mOpAcercade"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+    <item app:showAsAction="always"
+        android:icon="@drawable/perro"
+        android:id="@+id/btnStar"
+        android:title="Muestra"/>
+</menu>

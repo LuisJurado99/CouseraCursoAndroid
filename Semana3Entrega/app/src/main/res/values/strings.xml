@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Semana3Entrega</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="mOpContacto">Contacto</string>
+    <string name="mOpAcercade">Acerca de</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvAboutMy">Estudiante Fes Aragón Ingeniería en Computación Luis Jurado</string>
+    <string name="btnAboutGitHub">GitHub</string>
+    <string name="llaveNombre">NombreKey</string>
+    <string name="llaveFoto">FotoKey</string>
+</resources>
