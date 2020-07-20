@@ -1,5 +1,6 @@
 ## Entrega de la semana 3 de Android
 
+## Nota: No se ocupo el MAIL debido a la desactualización de la libreria en cambio se usaron intent que envian al GMAIL con los datos ya incrustados.
 #### Pantalla principal
 ![Alt Text](./screen/PantPrincipal.png)
 
