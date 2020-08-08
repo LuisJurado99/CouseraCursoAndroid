@@ -61,12 +61,13 @@
     <property name="destination" value="DRAWABLE" />
     <property name="format" value="PNG" />
     <property name="lastFolderRoot" value="$PROJECT_DIR$/../../ImagenesProyectos/perro5.png" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/screen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Coursera-DesarrolloAplicacionesMovilesAndroid/AplicacionContactos" />
     <property name="method" value="Automatic" />
-    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="resolutions" value="HDPI&#10;XXHDPI&#10;MDPI&#10;XHDPI&#10;XXXHDPI" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="sourceResolution" value="XHDPI" />
   </component>
   <component name="PsdUISettings">
@@ -154,10 +155,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="200" y="96" key="#PSD" timestamp="1595104393395">
+    <state x="200" y="96" key="#PSD" timestamp="1596682883600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="200" y="96" key="#PSD/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595104393395" />
+    <state x="200" y="96" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1596682883600" />
+    <state x="-382" y="-942" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595616265526">
+      <screen x="-549" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="-382" y="-942" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595616265526" />
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1595122401555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -178,11 +184,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595114715242" />
-    <state x="413" y="160" key="FileChooserDialogImpl" timestamp="1595213157945">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596745841679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="160" key="FileChooserDialogImpl/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595213157945" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594957154070" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596745841679" />
     <state width="1323" height="429" key="GridCell.Tab.0.bottom" timestamp="1595255344839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,15 +225,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="ScreenshotViewer.Dimensions/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595213011945" />
-    <state x="107" y="52" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1595212709900">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1596681724265">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596681724265" />
+    <state x="107" y="52" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1596746736229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="107" y="52" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595212709900" />
-    <state x="721" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595104083904">
+    <state x="107" y="52" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1596746736229" />
+    <state x="721" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596726509849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="721" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595104083904" />
-    <state x="721" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594996697782" />
+    <state x="721" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-549.-1080.1920.1040@0.0.1366.728" timestamp="1595615649216" />
+    <state x="721" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596726509849" />
     <state x="289" y="116" key="psd.add.jar.dependency.panel.dimension" timestamp="1595104363377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
